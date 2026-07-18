@@ -5,7 +5,7 @@ import numpy as np
 # import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
-df=pd.read_csv("amazon (3).csv")
+df=pd.read_csv("Amazon (3).csv")
 df1=pd.read_csv("Amazon_c.csv")
 # ---------- Professional Graph Theme --------
 plt.rcParams.update({
