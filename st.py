@@ -454,12 +454,12 @@ st.markdown(f"""
 #     st.title("📂 Dataset Selection")
     
 #     # Do alag files choose karne ke liye selectbox
-#     file_choice = st.sidebar.selectbox("Select File", ["amazon (3).csv", "Amazon_c.csv"])
+#     file_choice = st.sidebar.selectbox("Select File", ["Amazon (3).csv", "Amazon_c.csv"])
         
 #     try:
-#             if file_choice == "amazon (3).csv":
-#                 df = pd.read_csv("amazon (3).csv")
-#                 st.write("Displaying amazon.csv")
+#             if file_choice == "Amazon (3).csv":
+#                 df = pd.read_csv("Amazon (3).csv")
+#                 st.write("Displaying Amazon.csv")
 #             else:
 #                 # Apni doosri file ka sahi naam yahan likhein
 #                 df = pd.read_csv("Amazon_c.csv") 
