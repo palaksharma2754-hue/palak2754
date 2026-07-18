@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 # from streamlit_option_menu import option_menu
-import seaborn as sns
+# import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 df=pd.read_csv("amazon (3).csv")
